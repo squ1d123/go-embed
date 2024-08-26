@@ -1,0 +1,6 @@
+---
+- name: Add some host
+  hosts: localhost
+  tasks:
+    - ansible.builtin.import_role:
+        name: sample_role

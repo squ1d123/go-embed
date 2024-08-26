@@ -1,0 +1,4 @@
+---
+- name: Echo something
+  ansible.builtin.command:
+    cmd: echo "hello world"
